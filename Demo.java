@@ -8,6 +8,8 @@ public class Demo{
 	System.out.println("Mahadev Vyavahare Doing Changes...");
       System.out.println( str.compareTo(anotherString) );
       System.out.println( str.compareToIgnoreCase(anotherString) );
-      System.out.println( str.compareTo(objStr.toString()));
+   String toggle = System.getenv("toggle");
+System.out.println("Toggle from Environment var : "+toggle);
+	   System.out.println( str.compareTo(objStr.toString()));
    }
 }
